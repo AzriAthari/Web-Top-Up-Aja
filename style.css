@@ -1,0 +1,80 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar Styling */
+.navbar-brand img {
+  max-height: 50px;
+}
+
+.navbar-nav .nav-link {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+/* Carousel Styling */
+.carousel-inner img {
+  border-radius: 8px;
+  height: 400px;
+  object-fit: cover;
+}
+
+/* Search Bar Styling */
+form.d-flex {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form.d-flex input[type="search"] {
+  border-radius: 20px 0 0 20px;
+}
+
+form.d-flex button {
+  border-radius: 0 20px 20px 0;
+}
+
+/* Popular Games Section */
+.container h2 {
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.container .row img {
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.container .row img:hover {
+  transform: scale(1.05);
+}
+
+.news-section h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.news-card img {
+  height: 180px;
+  object-fit: cover;
+}
+
+.news-card h5 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.news-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
